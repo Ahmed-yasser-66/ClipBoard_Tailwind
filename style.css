@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500;600;700&family=Gabarito:wght@400;600&family=Montserrat:wght@500&family=Overpass:wght@400;700&display=swap');
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.hero {
+  background-image: url('/images/bg-header-desktop.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
